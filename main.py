@@ -3,14 +3,23 @@ License: Apache
 Organization: UNIR
 """
 
+from cmd import PROMPT
 import os
 import sys
 
 DEFAULT_FILENAME = "words.txt"
 DEFAULT_DUPLICATES = False
 
+def get_bool(prompt):
+    while True:
+        try:
+           return {"true":True,"false":False}[input(prompt).lower()]
+        except KeyError:
+           print("Invalid input please enter True or False!")
 
-def sort_list(items, ascending=True):
+print get_bool("Quieres ordener de forma ascente=true descendente=false?")
+
+def sort_list(items, ascending=PROMPT):
     if not isinstance(items, list):
         raise RuntimeError(f"No puede ordenar {type(items)}")
 
