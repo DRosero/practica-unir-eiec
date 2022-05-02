@@ -16,4 +16,5 @@ Se recibe 2 parametros para la ejecución del script como se indica, a continuac
 Al ejercutar el fichero main.py traduce los mensajes de español a ingles utilizando la libreria deep_translator
 Es necesario instalar la libreria previamente con el siguiente comando:
 python3 -m pip install deep_translator
+
   
