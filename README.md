@@ -13,7 +13,7 @@ Se recibe 2 parametros para la ejecución del script como se indica, a continuac
   fichero: se indica el fichero o ruta que contiene la lista de palabras, una por línea, el fichero debe tener la extension .txt
   criterio: se debe indicar yes/no, yes para eliminar palabras duplicadas, no para mantener la lista
  
-El script main.py traduce los mensajes de español a ingles utilizando la libreria deep_translator
-Es necesario instalar previamente con el siguiente comando
+Al ejercutar el fichero main.py traduce los mensajes de español a ingles utilizando la libreria deep_translator
+Es necesario instalar la libreria previamente con el siguiente comando:
 python3 -m pip install deep_translator
   
